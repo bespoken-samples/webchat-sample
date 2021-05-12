@@ -1,0 +1,33 @@
+---
+- test: Rewards test
+- hi: Hey, nice to chat with you!
+- rewards program: Being rewarded for eating, ahh... what a dream!
+- learn about rewards: Dropping knowledge on the most delicious program there is!
+- about points: 
+    transcript: I've got answers
+    $..span.*.innerText: Can I earn points anywhere?
+- can i earn points anywhere: You can earn points anywhere in the US! Just make sure you
+
+---
+- test: Delivery test
+- hi: Hey, nice to chat with you!
+- delivery: I'm just grateful we get to talk about this now, how about you?
+- how it works: this is how it works
+- does chipotle deliver: We deliver! Just place your order through our app, online, or one of our partners' platforms, and sit back and relax.
+
+---
+- test: Food test
+- hi: Hey, nice to chat with you!
+- food: I'm just grateful we get to talk about this now, how about you?
+- menu items: i can help with that
+- what happened to chorizo: We’re always trying new recipes, but sometimes good things must come to an end. Don’t cry because it’s gone. Smile because you ate it.
+
+---
+- test: Typo test
+- hi: Hey, nice to chat with you!
+- delivry: I'm just grateful we get to talk about this now, how about you?
+
+---
+- test.skip: Sanity test
+- hi: 
+  - $..span.*.innerText: How can I help?

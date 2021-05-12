@@ -1,0 +1,11 @@
+{
+  "extraParameters": {
+    "url": "https://www.chipotle.com/contact-us"
+  },
+  "filter": "filter/src/filter.js",
+  "locale": "en-US",
+  "trace": "true",
+  "type": "e2e",
+  "virtualDeviceBaseURL": "https://virtual-device-web.bespoken.io",
+  "virtualDeviceToken": "jpk"
+}

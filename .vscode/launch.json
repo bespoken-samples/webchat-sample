@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "args": ["**/dom.test.js"],
+      "console": "integratedTerminal",
+      "type": "node",
+      "request": "launch",
+      "name": "Unit Test",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/node_modules/.bin/ava"
+    },
+    {
+      "args": ["**/dom.test.js"],
+      "console": "integratedTerminal",
+      "type": "node",
+      "request": "launch",
+      "name": "Unit Test (Hack)",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/filter/test/dom.test.js"
+    }
+  ]
+}

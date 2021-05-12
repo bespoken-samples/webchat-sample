@@ -1,0 +1,28 @@
+{
+  "name": "liveperson-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "bespoken-datadog-plugin": "^1.1.1",
+    "bespoken-tools": "^2.4.94",
+    "dotenv": "^8.2.0",
+    "fast-xml-parser": "^3.19.0",
+    "jsdom": "^11.12.0",
+    "jsonpath": "^1.1.1",
+    "lodash": "^4.17.21",
+    "xml2js": "^0.4.19"
+  },
+  "description": "",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "e2e": "bst test",
+    "test": "ava"
+  },
+  "standard": {
+    "ignore": [
+      "test_output"
+    ]
+  }
+}
