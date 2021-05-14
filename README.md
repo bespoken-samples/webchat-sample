@@ -2,7 +2,7 @@
 This project demonstrates a set of tests setup to run against an Chatbot-embedded in a web browser.
 
 We use the webchat-bot embedded with [Chipotle for this test](https://www.chipotle.com/contact-us):  
-![docs/ChipotleWebChatTest.gif](docs/Chipotle.png)
+![docs/Chipotle.png](docs/Chipotle.png)
 
 ## How It Works
 Our tests interact with the browser directly using Puppeteer to interact with the chatbot.
@@ -19,7 +19,7 @@ Here is an example test:
 ```
 
 And here is how that looks running in the browser:
-[![WebChat Testing In Action](docs/Chipotle.png)](https://youtu.be/mgUPUwepYAw)
+[![WebChat Testing In Action](docs/ChipotleWebChatTest.gif)](https://youtu.be/mgUPUwepYAw)
 
 Magical, right?
 
