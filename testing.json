@@ -1,6 +1,6 @@
 {
   "extraParameters": {
-    "headless": "false",
+    "headless": "true",
     "inputSelector": ".lp_input_area textarea",
     "replySelector": ".lpc_message__text_agent",
     "widgetSelector": ".LPMcontainer div",
