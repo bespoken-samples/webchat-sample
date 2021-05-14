@@ -19,7 +19,7 @@ Here is an example test:
 ```
 
 And here is how that looks running in the browser:
-<video src='docs/ChipotleWebChatTest.mp4' autoplay></video>
+[![WebChat Testing In Action](docs/Chipotle.png)](https://youtu.be/mgUPUwepYAw)
 
 Magical, right?
 
