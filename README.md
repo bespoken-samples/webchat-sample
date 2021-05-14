@@ -19,9 +19,20 @@ Here is an example test:
 ```
 
 And here is how that looks running in the browser:
+
 [![WebChat Testing In Action](docs/ChipotleWebChatTest.gif)](https://youtu.be/mgUPUwepYAw)
 
 Magical, right?
+
+To actually setup our tests, there are a few key pieces of information required:
+| Field | Description | Required? |
+|---|---|---|
+| inputSelector | The CSS selector for the text input where messages should be entered | Yes |
+| replySelector | The CSS selector for the reply HTML | Yes |
+| widgetSelector | For chatbots that require clicking a button to open and begin the chat, the css selector for the button | No |
+
+Once these fields are configured, you can write tests according to our standard test scripts, as described here:  
+https://read.bespoken.io/end-to-end/guide/#overview
 
 ## Setup
 * Clone the project `git clone https://github.com/bespoken-samples/webchat-sample`

@@ -10,6 +10,6 @@
   "locale": "en-US",
   "trace": "true",
   "type": "e2e",
-  "virtualDeviceBaseURL": "http://localhost:3000",
+  "virtualDeviceBaseURL": "https://virtual-device-web.bespoken.io",
   "virtualDeviceToken": "BespokenSample"
 }
