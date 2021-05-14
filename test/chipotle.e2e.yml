@@ -3,9 +3,7 @@
 - hi: Hey, nice to chat with you!
 - rewards program: Being rewarded for eating, ahh... what a dream!
 - learn about rewards: Dropping knowledge on the most delicious program there is!
-- about points: 
-    transcript: I've got answers
-    $..span.*.innerText: Can I earn points anywhere?
+- about points: I've got answers
 - can i earn points anywhere: You can earn points anywhere in the US! Just make sure you
 
 ---

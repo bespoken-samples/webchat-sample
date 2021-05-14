@@ -5,6 +5,23 @@ We use the webchat-bot embedded with [Chipotle for this test](https://www.chipot
 ![docs/TestResultsSummary.png](docs/Chipotle.png)
 
 ## How It Works
+Our tests interact with the browser directly using Puppeteer to interact with the chatbot.
+
+Here is an example test:
+```
+---
+- test: Rewards test
+- hi: Hey, nice to chat with you!
+- rewards program: Being rewarded for eating, ahh... what a dream!
+- learn about rewards: Dropping knowledge on the most delicious program there is!
+- about points: I've got answers
+- can i earn points anywhere: You can earn points anywhere in the US! Just make sure you
+```
+
+And here is how that looks running in the browser:
+<video src='docs/ChipotleWebChatTest.mp4' autoplay></video>
+
+Magical, right?
 
 ## Setup
 * Clone the project `git clone https://github.com/bespoken-samples/webchat-sample`
