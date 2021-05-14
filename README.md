@@ -18,7 +18,7 @@ Here is an example test:
 - can i earn points anywhere: You can earn points anywhere in the US! Just make sure you
 ```
 
-And here is how that looks running in the browser:
+And here is that test running in the browser:
 [![WebChat Testing In Action](docs/Chipotle.png)](https://youtu.be/mgUPUwepYAw)
 
 Magical, right?
