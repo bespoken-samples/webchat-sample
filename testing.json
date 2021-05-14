@@ -3,7 +3,7 @@
     "headless": "true",
     "inputSelector": ".lp_input_area textarea",
     "replySelector": ".lpc_message__text_agent",
-    "timeoutOnReply": 10000,
+    "timeoutOnReply": 15000,
     "widgetSelector": ".LPMcontainer div",
     "url": "https://www.chipotle.com/contact-us"
   },
