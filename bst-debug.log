@@ -1,0 +1,78 @@
+2021-05-12T15:50:52.773Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:50:52.787Z error: bst-test            TypeError: assertion.value.indexOf is not a function
+    at _loop (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:172:56)
+    at VirtualDeviceInvoker.convertInteractionsToMessages (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:184:9)
+    at VirtualDeviceInvoker.<anonymous> (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:201:18)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:1:192)
+    at _next (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:194)
+    at /mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:364
+    at new Promise (<anonymous>)
+    at VirtualDeviceInvoker.<anonymous> (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:97)
+    at VirtualDeviceInvoker.invokeBatch (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:263:29)
+2021-05-12T15:53:02.746Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:53:02.762Z error: bst-test            TypeError: assertion.value.indexOf is not a function
+    at _loop (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:172:56)
+    at VirtualDeviceInvoker.convertInteractionsToMessages (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:184:9)
+    at VirtualDeviceInvoker.<anonymous> (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:201:18)
+    at Generator.next (<anonymous>)
+    at asyncGeneratorStep (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:1:192)
+    at _next (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:194)
+    at /mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:364
+    at new Promise (<anonymous>)
+    at VirtualDeviceInvoker.<anonymous> (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:3:97)
+    at VirtualDeviceInvoker.invokeBatch (/mnt/c/Users/jpk/AppData/Roaming/npm/node_modules/bespoken-tools/node_modules/skill-testing-ml/dist/lib/runner/VirtualDeviceInvoker.js:263:29)
+2021-05-12T15:59:09.133Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:59:09.134Z error: bst-test            Failed to launch the browser process!
+[1830:1830:0512/155907.014845:ERROR:browser_main_loop.cc(1393)] Unable to open X display.
+[0512/155907.028668:ERROR:nacl_helper_linux.cc(307)] NaCl helper process running without a sandbox!
+Most likely you need to configure your SUID sandbox correctly
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+2021-05-12T15:59:09.134Z error: bst-test            {"error_category":"user","error_code":500,"message":"Failed to launch the browser process!\n[1830:1830:0512/155907.014845:ERROR:browser_main_loop.cc(1393)] Unable to open X display.\n[0512/155907.028668:ERROR:nacl_helper_linux.cc(307)] NaCl helper process running without a sandbox!\nMost likely you need to configure your SUID sandbox correctly\n\n\nTROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n"}
+2021-05-12T15:59:17.967Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:59:17.967Z error: bst-test            Failed to launch the browser process!
+[1845:1845:0512/155915.871738:ERROR:browser_main_loop.cc(1393)] Unable to open X display.
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+2021-05-12T15:59:17.967Z error: bst-test            {"error_category":"user","error_code":500,"message":"Failed to launch the browser process!\n[1845:1845:0512/155915.871738:ERROR:browser_main_loop.cc(1393)] Unable to open X display.\n\n\nTROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n"}
+2021-05-12T15:59:26.513Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:59:26.513Z error: bst-test            Failed to launch the browser process!
+[1859:1859:0512/155924.421389:ERROR:browser_main_loop.cc(1393)] Unable to open X display.
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+2021-05-12T15:59:26.513Z error: bst-test            {"error_category":"user","error_code":500,"message":"Failed to launch the browser process!\n[1859:1859:0512/155924.421389:ERROR:browser_main_loop.cc(1393)] Unable to open X display.\n\n\nTROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n"}
+2021-05-12T15:59:35.152Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T15:59:35.152Z error: bst-test            Failed to launch the browser process!
+[1873:1873:0512/155933.082894:ERROR:browser_main_loop.cc(1393)] Unable to open X display.
+
+
+TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md
+
+2021-05-12T15:59:35.152Z error: bst-test            {"error_category":"user","error_code":500,"message":"Failed to launch the browser process!\n[1873:1873:0512/155933.082894:ERROR:browser_main_loop.cc(1393)] Unable to open X display.\n\n\nTROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n"}
+2021-05-12T16:25:47.863Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T16:25:47.864Z error: bst-test            Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+2021-05-12T16:25:47.864Z error: bst-test            {"error_category":"system","error_code":500,"message":"ERROR - ECONNREFUSED \nRaw message: Error: connect ECONNREFUSED 127.0.0.1:3000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)"}
+2021-05-12T16:25:56.475Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T16:25:56.476Z error: bst-test            Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+2021-05-12T16:25:56.476Z error: bst-test            {"error_category":"system","error_code":500,"message":"ERROR - ECONNREFUSED \nRaw message: Error: connect ECONNREFUSED 127.0.0.1:3000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)"}
+2021-05-12T16:26:04.483Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T16:26:04.483Z error: bst-test            Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+2021-05-12T16:26:04.483Z error: bst-test            {"error_category":"system","error_code":500,"message":"ERROR - ECONNREFUSED \nRaw message: Error: connect ECONNREFUSED 127.0.0.1:3000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)"}
+2021-05-12T16:26:12.487Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T16:26:12.488Z error: bst-test            Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+2021-05-12T16:26:12.488Z error: bst-test            {"error_category":"system","error_code":500,"message":"ERROR - ECONNREFUSED \nRaw message: Error: connect ECONNREFUSED 127.0.0.1:3000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)"}
+2021-05-12T16:26:20.492Z error: bst-test            Error using bst-test on Node: v15.8.0
+2021-05-12T16:26:20.493Z error: bst-test            Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+2021-05-12T16:26:20.493Z error: bst-test            {"error_category":"system","error_code":500,"message":"ERROR - ECONNREFUSED \nRaw message: Error: connect ECONNREFUSED 127.0.0.1:3000\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)"}

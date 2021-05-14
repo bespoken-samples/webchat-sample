@@ -1,12 +1,14 @@
 
 // const jsonpath = require('jsonpath')
 const _ = require('lodash')
+const JSDOM = require('jsdom').JSDOM
 const jsonpath = require('jsonpath')
 
 class DOM {
   constructor (xml) {
     this.xml = xml
     this.clean()
+    this.dom = new JSDOM(this.xml)
   }
 
   clean () {
@@ -15,10 +17,33 @@ class DOM {
     }
 
     this.xml = this.xml.split('\\"').join('"')
-    console.info('xml: ' + this.xml)
+    // console.info('xml: ' + this.xml)
     return this
   }
 
+  jquery (jqueryExpression) {
+    const match = jqueryExpression.match(/\$\(['"](.*)['"]\)(.*)/)
+    if (match) {
+      const selector = match[1]
+
+      const expression = match[2].trim()
+      let result = this.dom.window.document.querySelector(selector)
+
+      if (result) {
+        if (expression) {
+          result = eval(`result${expression}`)
+        }
+      }
+
+      return result
+    }
+  }
+
+  /**
+   *
+   * @param {*} selector
+   * @returns
+   */
   select (selector) {
     return this.dom.window.document.querySelector(selector)
   }
@@ -56,7 +81,7 @@ class DOM {
 
     // console.info('xml: ' + this.xml)
     const o = parser.parse(this.xml, options)
-    console.info(JSON.stringify(o, null, 2))
+    // console.info(JSON.stringify(o, null, 2))
     return o
   }
 

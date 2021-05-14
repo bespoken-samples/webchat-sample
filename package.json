@@ -1,5 +1,5 @@
 {
-  "name": "liveperson-demo",
+  "name": "webchat-sample",
   "version": "1.0.0",
   "dependencies": {
     "bespoken-datadog-plugin": "^1.1.1",

@@ -4,12 +4,12 @@ on:
   schedule:
     # Runs our tests at the top of every hour
     - cron:  '0 * * * *'
-  workflow_dispatch
+  workflow_dispatch:
 
 env:
   DATADOG_API_KEY: ${{ secrets.DATADOG_API_KEY }}
-  DATADOG_CUSTOMER: "Live Person"
-  VIRTUAL_DEVICE_TOKEN: LivePerson
+  DATADOG_CUSTOMER: "Chipotle"
+  VIRTUAL_DEVICE_TOKEN: BespokenSample
 jobs:
   e2e-test:
     runs-on: ubuntu-latest
