@@ -47,7 +47,7 @@ That's all there is to it!
 
 ## Viewing The Results
 The main output from the tests is an HTML report. It can be found as a part of each Github workflow that has been run:  
-https://github.com/bespoken-samples/webchat-sample/actions/runs/706573143
+https://github.com/bespoken-samples/webchat-sample/actions/runs/850058769
 
 The report summarizes the results of each test:
 ![docs/TestResultsSummary.png](docs/TestResultsSummary.png)
@@ -59,5 +59,5 @@ Additionally, we have integrated with DataDog, where we can view our test result
 ![docs/DataDog.png](docs/DataDog.png)
 
 ## Learn More
-Check out our blog post on the AWS Developer site to learn more about this project:
+Check out our blog post on the AWS Developer site to learn more about this project:  
 COMING SOON!

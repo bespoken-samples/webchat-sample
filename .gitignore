@@ -3,3 +3,4 @@ test_output/
 
 .env
 *.code-workspace
+*.log
