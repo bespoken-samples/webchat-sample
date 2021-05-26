@@ -1,9 +1,9 @@
 name: End-to-end Tests
 
 on:
-  schedule:
-    # Runs our tests at the top of every hour
-    - cron:  '0 * * * *'
+  #schedule:
+    # Uncomment to runs our tests at the top of every hour
+    # - cron:  '0 * * * *'
   workflow_dispatch:
 
 env:
